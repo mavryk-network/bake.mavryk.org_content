@@ -1,4 +1,4 @@
-name: build tezpay 
+name: build mavpay 
 
 on:
   pull_request:
@@ -14,6 +14,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
           token: ${{ secrets.DOCS_BUILDER_ACCESS_TOKEN }}
-          repository: tez-capital/docs.tez.capital_builder
+          repository: tez-capital/bake.mavryk.org_builder
           event-type: subproject-updated
           client-payload: '{ "id": "${{ steps.repository_info.outputs.ID }}", "repository": "${{github.repository}}", "version": "${{github.ref_name}}"}'

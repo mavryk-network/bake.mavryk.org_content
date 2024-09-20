@@ -9,7 +9,7 @@ summary: TezWatch Setup Tutorial
 
 Setting up TezWatch currently requires you to have a https://Discord.com account. If you don't have one, please create one before proceeding.
 
-You will also need to join our [Discord](https://discord.gg/cVGMA4MaNM). This is where you will configure TezWatch. You can also ask questions and get support from the Tez Capital team and other Tezos bakers, stakers and delegators. After you join, make sure to self-select the "TezBake" role in order to get access to the [#tezwatch](https://discord.gg/94dnM2AcRw) channel.
+You will also need to join our [Discord](https://discord.gg/cVGMA4MaNM). This is where you will configure TezWatch. You can also ask questions and get support from the Tez Capital team and other Tezos bakers, stakers and delegators. After you join, make sure to self-select the "MavBake" role in order to get access to the [#tezwatch](https://discord.gg/94dnM2AcRw) channel.
 
 The idea here is to have the Discord mobile app on your phone and/or the Discord desktop app on your computer. You will need to be logged in to your Discord account on the device you want to receive notifications on. TezWatch will use Discord to tag you in a DM (Direct Message) based on your configuration. For example, you may not care if you miss a single attestation but you care if you miss 10 attestation in a row or a block.
 

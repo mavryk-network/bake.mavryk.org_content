@@ -50,8 +50,8 @@ summary:
 * [https://gitlab.com/groktech/](https://gitlab.com/groktech/)
 ### Social Media
 * [Twitter: Tez Capital](https://twitter.com/tezcapital)
-* [Twitter: TezBake](https://twitter.com/YourBakeBuddy)
-* [Twitter: TezPay](https://twitter.com/YourPayBuddy)
+* [Twitter: MavBake](https://twitter.com/YourBakeBuddy)
+* [Twitter: MavPay](https://twitter.com/YourPayBuddy)
 * [Twitter: TezGov](https://twitter.com/YourGovBuddy)
 * [Twitter: alis-is (Berry Studio)](https://twitter.com/alisis_official)
 * [Twitter: GrokTech](https://twitter.com/GrokYourTech)
