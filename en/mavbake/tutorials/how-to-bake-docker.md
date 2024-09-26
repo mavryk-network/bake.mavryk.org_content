@@ -25,15 +25,15 @@ For this tutorial, you'll need to have already have installed Docker as shown he
    sudo docker run --name mavbake-container --privileged -d ghcr.io/mavryk-network/mavbake:latest-alpine
    ```
 
-> After this step, you will need to wait a while for the container to start up and bootstrap the Tezos node.
+> After this step, you will need to wait a while for the container to start up and bootstrap the Mavryk node.
 
-You can monitor the progress of the Tezos node bootstrapping by running the following command:
+You can monitor the progress of the Mavryk node bootstrapping by running the following command:
 
    ```
    sudo docker logs -f mavbake-container
    ```
 
-Once the Tezos node has finished bootstrapping, you can connect into the container and either import your Ledger wallet or create a new soft wallet.
+Once the Mavryk node has finished bootstrapping, you can connect into the container and either import your Ledger wallet or create a new soft wallet.
 
 ### Connect to MavBake Container
 
@@ -46,7 +46,7 @@ Now that your node is in full sync, you can proceed with the most important part
 
 You have the option to use the secure Ledger hardware wallet or simply use a local, unencrypted software key (a.k.a. soft key). The secure Ledger hardware wallet is the recommended option for mainnet baking.
 
-You will have to first fund your baker address with enough tez (6000 minimum) to cover the bond requirement. You can do this by sending tez from your main account or exchange to the baker address.
+You will have to first fund your baker address with enough mav (6000 minimum) to cover the bond requirement. You can do this by sending mav from your main account or exchange to the baker address.
 
 #### (Option 1 - RECOMMENDED) Import Ledger key to MavBake signer
    ```
@@ -84,34 +84,34 @@ First, generate the baker key for MavBake signer:
 Make sure to backup your key in a secure location. You can get the key by running the following command:
 
    ```
-   cat /bake-buddy/signer/data/.tezos-signer/secret_keys
+   cat /mavpay/signer/data/.mavryk-signer/secret_keys
    ```
 
 Then, import the baker public key hash to MavBake node:
 
-Get the tz1-tz3 address which is the hashed public key of the baker key:
+Get the mv1-mv3 address which is the hashed public key of the baker key:
 
    ```
-   cat /bake-buddy/signer/data/.tezos-signer/public_key_hashs
+   cat /mavpay/signer/data/.mavryk-signer/public_key_hashs
    ```
 
 Import the hashed key to the MavBake node:
 
    ```
-   mavbake node client import secret key baker http://127.0.0.1:20090/tz1bcSYEMKBoMnsACXzixn5bmzcdYjagqjZF
+   mavbake node client import secret key baker http://127.0.0.1:20090/mv1WyiGYVL8D6CE81AYnQseALR6zh8v3J3Dr
    ```
 
-> Change the tz1bcSYEMKBoMnsACXzixn5bmzcdYjagqjZF to the hashed key you got from the previous command.
+> Change the mv1WyiGYVL8D6CE81AYnQseALR6zh8v3J3Dr to the hashed key you got from the previous command.
 
 Finally, change the permissions of the newly generated keys to be readable by the ascend user and group which runs the MavBake node:
 
    ```
-   chown -R ascend:ascend /bake-buddy/
+   chown -R ascend:ascend /mavpay/
    ```
 
 
-#### Register Ledger key as baker on the Tezos blockchain
-For this step your node level must be synced with the latest block on the blockchain explorer. You must also temporarily open your Ledger Tezos Wallet app to register your key as a baker (__note__: as well as when voting). For all other baker operations, you must use the Tezos Baking app.
+#### Register Ledger key as baker on the Mavryk blockchain
+For this step your node level must be synced with the latest block on the blockchain explorer. You must also temporarily open your Ledger Mavryk Wallet app to register your key as a baker (__note__: as well as when voting). For all other baker operations, you must use the Mavryk Baking app.
 
    ```
    mavbake register-key
@@ -123,5 +123,5 @@ For this step your node level must be synced with the latest block on the blockc
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

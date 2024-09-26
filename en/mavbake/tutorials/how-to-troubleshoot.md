@@ -18,12 +18,12 @@ If you encounter an installation issue, run the setup command again with the `--
 You can add `--log-level=trace` regardless of the setup type that's being attempted, whether it's on Ghostnet or some other testnet.
 
 ### Blockchain errors
-Sometimes, you will notice that `mavbake info` never seems to show that you are able to fully synchronize your node. Upon looking at it you may find that your node is stuck on a certain block. This is usually due to a problem with the Tezos node itself. The Tezos node is a separate process from the MavBake process. If you are having issues with the Tezos node, you can try to restart it with the following command:
+Sometimes, you will notice that `mavbake info` never seems to show that you are able to fully synchronize your node. Upon looking at it you may find that your node is stuck on a certain block. This is usually due to a problem with the Mavryk node itself. The Mavryk node is a separate process from the MavBake process. If you are having issues with the Mavryk node, you can try to restart it with the following command:
 
    ```
    mavbake restart
    ```
-You may see an error like the one below, which indicates your node needs to be bootstrapped with a fresh copy of the Tezos blockchain.
+You may see an error like the one below, which indicates your node needs to be bootstrapped with a fresh copy of the Mavryk blockchain.
 
    ```
    baker@baker-VirtualBox:~$ mavbake node log node -f
@@ -32,7 +32,7 @@ You may see an error like the one below, which indicates your node needs to be b
    mai 20 08:51:31 baker-VirtualBox systemd[1]: Started bb-default-node node service.
    mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.414 - node.config.validation: the node configuration has been successfully validated.
    mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.415 - node.main: read identity file (peer_id = idqueYR61yjX8QfsiLru4FEZFSWi7m)
-   mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.415 - node.main: starting the Tezos node v13.0 (cb9f439e) (chain = TEZOS_MAINNET)
+   mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.415 - node.main: starting the Mavryk node v13.0 (cb9f439e) (chain = MAVRYK_MAINNET)
    mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.415 - node.main: disabled local peer discovery
    mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.415 - node: shell-node initialization: bootstrapping
    mai 20 08:51:32 baker-VirtualBox node[5868]: May 20 08:51:32.678 - node: shell-node initialization: p2p_maintain_started
@@ -48,5 +48,5 @@ You may see an error like the one below, which indicates your node needs to be b
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

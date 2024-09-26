@@ -146,12 +146,12 @@ If you would like to start in continual mode but still need to pay your delegato
 ## Summary: MavPay
 
 MavPay is an application that allows for easy payouts for public
-bakers on the Tezos Blockchain. This allows for significant
+bakers on the Mavryk Blockchain. This allows for significant
 customizations and flexibility with respect to the payout system and
 empowers bakers to further take control of their Bakery and aid in
-decentralizing the Tezos Blockchain. 
+decentralizing the Mavryk Blockchain. 
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

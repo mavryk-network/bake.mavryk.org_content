@@ -7,16 +7,16 @@ summary: MavBake Baking Tutorial
 
 ## Preparation
 
-Installing MavBake CLI and using it to setup your Tezos baker is very simple. You will need the following tools:
+Installing MavBake CLI and using it to setup your Mavryk baker is very simple. You will need the following tools:
 
 
 1. Spare computer or existing computer with Linux installed. The recommended requirements are provided by [Nomadic Labs](https://research-development.nomadic-labs.com/paris-announcement.html#10s-block-times-bring-lower-latency-and-faster-finality)
-    * 3 CPU cores (arm64 or amd64/x86-64 architectures) – 2 are needed by the Octez node and 1 is needed by the Octez baker;
+    * 3 CPU cores (arm64 or amd64/x86-64 architectures) – 2 are needed by the Mavkit node and 1 is needed by the Mavkit baker;
     * 8GB RAM + 8GB swap (or 16GB RAM);
     * 100GB SSD storage (or similar I/O performance);
     * a low-latency, reliable broadband internet connection.
-2. Ledger Nano S Plus or Nano X hardware wallet with Tezos Wallet & Baker apps installed.
-   (note: it's necessary to use Ledger Live to install the Tezos Wallet & Baking applications; to install the latter, enable developer mode in Ledger Live settings)
+2. Ledger Nano S Plus or Nano X hardware wallet with Mavryk Wallet & Baker apps installed.
+   (note: it's necessary to use Ledger Live to install the Mavryk Wallet & Baking applications; to install the latter, enable developer mode in Ledger Live settings)
 
 ---
 
@@ -30,14 +30,14 @@ To begin, run the script below, which will download the latest version of MavBak
    # you may be prompted for sudo password
    ```
 
-### Setup Tezos node, signer and install mavbake dependencies
+### Setup Mavryk node, signer and install mavbake dependencies
 
    ```
    mavbake setup -a
    # you may be prompted for sudo password
    ```
 
-### Bootstrap Tezos node
+### Bootstrap Mavryk node
 At this stage, it's necessary to bootstrap your node, meaning to download a copy of the blockchain so you don't have to synchronize block-by-block, which takes hours at best.
   
    ```
@@ -53,13 +53,13 @@ https://snapshots.eu.tzinit.org/mainnet/rolling.html
 
 > The `<block_hash>` argument is optional but encouraged. If you don't want to borther with this protection, use the second method below which will also be faster.
 
-Verify the hash/checksum provided by the snapshot provider to ensure the snapshot is valid. You can find the correct hashes for all blocks on Tezos blockchain explorers such as:
+Verify the hash/checksum provided by the snapshot provider to ensure the snapshot is valid. You can find the correct hashes for all blocks on Mavryk blockchain explorers such as:
 https://tzkt.io/blocks
 https://tzstats.com/
 
 Simply search for the block level in the search field and verify the hash of the block matches the hash provided by the snapshot provider.
 
-### Start Tezos node
+### Start Mavryk node
 After importing the snapshot, you need to start your node and wait until it's fully synchronized before importing your Ledger key.
 
    ```
@@ -81,7 +81,7 @@ Now that your node is in full sync, you can proceed with the most important part
 
 You have the option to use the secure Ledger hardware wallet or simply use a local, unencrypted software key (a.k.a. soft key). The secure Ledger hardware wallet is the recommended option for mainnet baking.
 
-You will have to first fund your baker address with enough tez (6000 minimum) to cover the bond requirement. You can do this by sending tez from your main account or exchange to the baker address.
+You will have to first fund your baker address with enough mav (6000 minimum) to cover the bond requirement. You can do this by sending mav from your main account or exchange to the baker address.
 
 #### (Option 1 - RECOMMENDED) Import Ledger key to MavBake signer
    ```
@@ -119,27 +119,27 @@ First, generate the baker key for MavBake signer:
 Make sure to backup your key in a secure location. You can get the key by running the following command:
 
    ```
-   cat /bake-buddy/signer/data/.tezos-signer/secret_keys
+   cat /mavpay/signer/data/.mavryk-signer/secret_keys
    ```
 
 Then, import the baker public key hash to MavBake node:
 
-Get the tz1-tz3 address which is the hashed public key of the baker key:
+Get the mv1-mv3 address which is the hashed public key of the baker key:
 
    ```
-   cat /bake-buddy/signer/data/.tezos-signer/public_key_hashs
+   cat /mavpay/signer/data/.mavryk-signer/public_key_hashs
    ```
 
 Import the hashed key to the MavBake node:
 
    ```
-   mavbake node client import secret key baker http://127.0.0.1:20090/tz1bcSYEMKBoMnsACXzixn5bmzcdYjagqjZF
+   mavbake node client import secret key baker http://127.0.0.1:20090/mv1WyiGYVL8D6CE81AYnQseALR6zh8v3J3Dr
    ```
 
-> Change the tz1bcSYEMKBoMnsACXzixn5bmzcdYjagqjZF to the hashed key you got from the previous command.
+> Change the mv1WyiGYVL8D6CE81AYnQseALR6zh8v3J3Dr to the hashed key you got from the previous command.
 
 #### Register Ledger key as baker on the blockchain
-For this step your node level must be synced with the latest block on the blockchain explorer. You must also temporarily open your Ledger Tezos Wallet app to register your key as a baker (__note__: as well as when voting). For all other baker operations, you must use the Tezos Baking app.
+For this step your node level must be synced with the latest block on the blockchain explorer. You must also temporarily open your Ledger Mavryk Wallet app to register your key as a baker (__note__: as well as when voting). For all other baker operations, you must use the Mavryk Baking app.
 
    ```
    mavbake register-key
@@ -151,5 +151,5 @@ For this step your node level must be synced with the latest block on the blockc
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

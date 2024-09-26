@@ -45,7 +45,7 @@ wallet you have designated to pay your delegators (we will explain an
 easy way to get this later as well). 
 ***A note on the Private-key file - it is not recommended to use an existing wallet that may house
 important assets (including NFT's or crypto tokens) but to create a new
-wallet that contains only enough Tezos to pay out delegates.***
+wallet that contains only enough Mavryk to pay out delegates.***
 
 ---
 
@@ -174,7 +174,7 @@ This section will review how to setup the configuration file
 
 1.  Paste your **Baker** wallet in between the quotes
 2.  Set your Baker fee (ie 0.05 = 5% fee)
-3.  Input minimum payout for delegators (ie. 1 = 1 XTZ)
+3.  Input minimum payout for delegators (ie. 1 = 1 MVRK)
 4.  This section allows you to split payments for baking (Bonds) and
     fees from delegators (Fees) if you want - input **Baker** wallet
     address and percentage to split. This example does not split, where
@@ -211,7 +211,7 @@ This section will review how to setup the configuration file
 
 1.  Paste your **Baker** wallet in between the quotes
 2.  Set your Baker fee (ie 5% = 0.05)
-3.  Input minimum payout for delegators (ie. 1 = 1 XTZ)
+3.  Input minimum payout for delegators (ie. 1 = 1 MVRK)
 4.  Input minimum staking balance for delegators
 5.  Input delegators wallets that you wish to ignore completely (not
     often used)
@@ -233,7 +233,7 @@ This section will review how to setup the configuration file
 8.  This section allows you to split payments for fees collected (Fees),
     input wallet address and percentage to allocate (see example above
     for structure of more than 1 wallet. 100%=1.00
-9.  Donations refer to donating a specific amount of XTZ to wallets
+9.  Donations refer to donating a specific amount of MVRK to wallets
     every payout
     1.  Input a donation amount in *donate* field as a percentage (ie
         2.5% = 0.025)
@@ -247,7 +247,7 @@ This section will review how to setup the configuration file
     user**
 12. This section allows for automatic notifications/messages to be sent
     to specific platforms in order to broadcast messages (ie *'Bakery
-    has paid 100XTZ in rewards for latest cycle'* **We will cover this
+    has paid 100MVRK in rewards for latest cycle'* **We will cover this
     in a separate section** 
     *see appendix X* and platforms supported are ***Twitter, Discord, and E-mail***
 
@@ -282,5 +282,5 @@ These three files will be used to run the application and payouts.
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

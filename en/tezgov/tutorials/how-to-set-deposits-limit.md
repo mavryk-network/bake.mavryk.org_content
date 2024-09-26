@@ -20,7 +20,7 @@ Expand the `Tools` pane and select `Set Deposits Limit`
 
 ![<Set deposits limit button>](/tezgov/tutorial/tezgovSetDepositsLimit.png) 
 
-Fill in the amount, in tez, you want to set as your deposits limit and submit
+Fill in the amount, in mav, you want to set as your deposits limit and submit
 
 ![<Set deposits limit button>](/tezgov/tutorial/tezgovSetDepositsLimit2.png) 
 
@@ -34,5 +34,5 @@ Once confirmed, the page will refresh within 30 seconds.
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

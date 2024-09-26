@@ -1,14 +1,14 @@
 ---
-title: "Tezos Baking Best Practices"
+title: "Mavryk Baking Best Practices"
 weight: 1
 type: docs
-summary: Tezos Baking Best Practices
+summary: Mavryk Baking Best Practices
 ---
 
 ## Baking Best Practices
 This is the description of the ideal MavBake hardware setup and best practice for someone who wants to perform an excellent job baking on-premise, in their home, office or data center (in person) at a reasonable cost.
 
-You can get an idea of what kind of computer needs to be dedicated to Tezos baking by looking at the guide below
+You can get an idea of what kind of computer needs to be dedicated to Mavryk baking by looking at the guide below
 [https://www.fxhash.xyz/article/how-to-setup-your-own-tezos-bakery](https://www.fxhash.xyz/article/how-to-setup-your-own-tezos-bakery)
 
 
@@ -23,8 +23,8 @@ You will need two computers and both computers will be running MavBake. One comp
 ### Two Ledger Nano S Plus or Nano X
 While having two computers is somewhat optional, especially for a smaller baker, having two Ledger Nano S Plus or Nano X hardware wallets is very highly recommended. You will need to have two hardware wallets for the following reasons:
 * In the event of Ledger hardware failure
-* To transfer tez to your payment wallet or elsewhere, without interrupting baking
-* To vote on Tezos governance proposals, without interrupting baking
+* To transfer mav to your payment wallet or elsewhere, without interrupting baking
+* To vote on Mavryk governance proposals, without interrupting baking
 
 Note that you must never simultanerously use two hardware wallets to bake for the same baking address. This will result in a double baking or double endorsing offense and you will be slashed. It's very easy to avoid by:
 * Not authorizing the second hardware wallet to bake for the same address before it's needed
@@ -59,5 +59,5 @@ The MavBake Discord and Telegram bots are designed to monitor your baker's statu
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

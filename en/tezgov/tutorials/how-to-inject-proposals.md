@@ -22,15 +22,15 @@ Click New Proposal
 
 You have 2 options when submitting a proposal via the TezGov portal. 
 
-### (1) You can submit a proposal published by the Tezos core developers by pasting its hash
+### (1) You can submit a proposal published by the Mavryk core developers by pasting its hash
 
-The true names of the proposals crafted by the collective Tezos core developer teams are posted in https://research-development.nomadic-labs.com/blog.html. Any Tezos baker can submit these proposals to the Tezos blockchain by pasting their hash as shown below. In the example given, the baker is submitting the Nairobi proposal.
+The true names of the proposals crafted by the collective Mavryk core developer teams are posted in https://research-development.nomadic-labs.com/blog.html. Any Mavryk baker can submit these proposals to the Mavryk blockchain by pasting their hash as shown below. In the example given, the baker is submitting the Nairobi proposal.
 
 ![<TezGov new core proposal>](/tezgov/tutorial/tezgovNewProposalCore.png)
 
-### (2) You can submit a message to the Tezos bakers and community in the form of a Tezos proposal hash
+### (2) You can submit a message to the Mavryk bakers and community in the form of a Mavryk proposal hash
 
-Vanity names are names crafted for the sole purpose to send a message to all ecosystem participants. They are not meant to be passed during the exploration or adoption phases. Vanity proposals are meant to be used as a way to communicate with the whole Tezos community as a delegate (i.e. baker) on Tezos. In the example given, the baker is submitting a signal that on-chain funding is something desirable.
+Vanity names are names crafted for the sole purpose to send a message to all ecosystem participants. They are not meant to be passed during the exploration or adoption phases. Vanity proposals are meant to be used as a way to communicate with the whole Mavryk community as a delegate (i.e. baker) on Mavryk. In the example given, the baker is submitting a signal that on-chain funding is something desirable.
 
 Vanity proposals can be used for other reasons as well but they are never meant to be pursued all the way through. The scope of vanity proposals does not extend past the proposal round. All bakers must take great care not to vote on these proposals once the governance process enters the exploration phase.
 
@@ -40,5 +40,5 @@ We encourage all bakers to use this system only for serious ecosystem governance
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

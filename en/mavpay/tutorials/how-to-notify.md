@@ -97,7 +97,7 @@ We will use the API Key and Secret as well as the Access Token and Secret to edi
       `access_token_secret: Your_Access_Token_Secret`<br>
       `consumer_key: Your_Consumer_Key`<br>
       `consumer_secret: Your_Consumer_Key_Secret`<br>
-      `message_template: Rewards for <Cycle> have been paid to <Delegators> delegates in amount of <DistributedRewards> using #MavPay.👀 XTZ baked with #MavBake! We donate to wallet tz1R2GnBudU97Lra8Q3VDG7cUooNvUQ9ghCs to fund future development in Tezos. #cerberusbakery #tezos.`<br>
+      `message_template: Rewards for <Cycle> have been paid to <Delegators> delegates in amount of <DistributedRewards> using #MavPay.👀 MVRK baked with #MavBake! We donate to wallet mv1V4h45W3p4e1sjSBvRkK2uYbvkTnSuHg8g to fund future development in Mavryk. #cerberusbakery #mavryk.`<br>
       `type: twitter`<br>
     `}`<br>
     `]`
@@ -110,5 +110,5 @@ We will use the API Key and Secret as well as the Access Token and Secret to edi
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

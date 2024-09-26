@@ -11,7 +11,7 @@ For this tutorial, you'll need to have already followed one of the following tut
 * [How to Bake](/mavbake/tutorials/how-to-bake)
 * [How to Bake on Ghostnet](/mavbake/tutorials/how-to-bake-ghostnet)
 
-The TezPeak GUI is a graphical user interface for MavBake, which is a command-line tool for baking and endorsing Tezos blocks. It's a great way to get started with baking and endorsing without having to use the command line on a day-to-day basis.
+The TezPeak GUI is a graphical user interface for MavBake, which is a command-line tool for baking and endorsing Mavryk blocks. It's a great way to get started with baking and endorsing without having to use the command line on a day-to-day basis.
 
 > Please note that mavbake version 0.13.0-beta minimum is required to use TezPeak.
 
@@ -30,7 +30,7 @@ TezPeak GUI supports using MavBake and MavPay simultaneously or by themselves. T
 ### Setup TezPeak configuration
 
    ```
-   cd /bake-buddy/peak/ && touch config.hjson
+   cd /mavpay/peak/ && touch config.hjson
    ```
 
 Open the `config.hjson` file with your favorite text editor.
@@ -44,11 +44,11 @@ Here's an example of a `config.hjson` file with minimal MavBake configuration fo
    ```
 {
     listen: 0.0.0.0:8733
-    app_root: /bake-buddy
+    app_root: /mavpay
     modules: {
         mavbake: {
             bakers: [
-                tz1S5WxdZR5f9NzsPXhr7L9L1vrEb5spZFur
+                mv1VUJov75TUSewo2FcLbNLmzhVKMgenCv5o
             ]
         }
     }
@@ -60,11 +60,11 @@ You can also make TezPeak GUI only available on the local computer if you have a
    ```
 {
     listen: 127.0.0.1:8733
-    app_root: /bake-buddy
+    app_root: /mavpay
     modules: {
         mavbake: {
             bakers: [
-                tz1S5WxdZR5f9NzsPXhr7L9L1vrEb5spZFur
+                mv1VUJov75TUSewo2FcLbNLmzhVKMgenCv5o
             ]
         }
     }
@@ -81,7 +81,7 @@ Here's the TezPeak configuration with all MavBake available options:
     id: ""
 	# Address to listen on
     listen: 127.0.0.1:8733
-    app_root: /bake-buddy
+    app_root: /mavpay
     modules: {
         mavbake: {
 			# uncomment bellow to disable mavbake package monitoring
@@ -94,17 +94,10 @@ Here's the TezPeak configuration with all MavBake available options:
 	# List of reference nodes to connect to
 	# The reference nodes are used to get the rights and blocks if the baker's node is not available
     nodes: {
-        "Tezos Foundation": {
-            address: https://rpc.tzbeta.net/
+        "Mavryk Dynamics": {
+            address: https://rpc.mavryk.network/
             is_rights_provider: true
             is_block_provider: false
-        }
-        tzkt: {
-            address: https://rpc.tzkt.io/mainnet/
-            is_rights_provider: false
-            is_block_provider: true
-	        # reports error if node not available, use for baker's node
-            is_essential: false
         }
     }
 	# The mode tezpeak should operate in
@@ -131,5 +124,5 @@ If you're connecting from the same computer, you can use `http://127.0.0.1:8733`
 
 ---
 
-Any questions/comments/concerns? Please contact the Tez Capital team on
-[Discord](https://discord.gg/cVGMA4MaNM) or [Telegram](https://t.me/tezcapital) 
+Any questions/comments/concerns? Please contact the Mavryk Dynamics team on
+[Telegram](https://t.me/MavrykNetwork) 

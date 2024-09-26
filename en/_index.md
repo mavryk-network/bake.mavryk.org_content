@@ -1,5 +1,5 @@
 ---
-title: "Tez Capital Docs"
+title: "Mavryk Dynamics Baking Docs"
 weight: 1
 type: docs
 summary:
@@ -32,26 +32,18 @@ summary:
 </style>
 
 <div class="grid" align="center">
-  <a href="https://tez.capital" target="_blank">
+  <a href="https://mavrykdynamics.com" target="_blank">
 	<div class="link" style="display: inline-block">
-		<img src="/tzc.png" alt="TzC Logo"/>
+		<img src="/mavrykdynamics.png" alt="Mavryk Dynamics Logo"/>
 	</div>
   </a>
 </div>
 
 ### Chat/Support
-* [Discord](https://dsc.gg/tzc) (primary)
-* [Telegram](https://t.me/tezcapital)
+* [Telegram](https://t.me/MavrykNetwork)
 ### Blog
-* [Medium](https://tezcapital.medium.com/)
+* [Medium](https://blog.mavrykdynamics.com/)
 ### Source Code
 * [https://github.com/mavryk-network/](https://github.com/mavryk-network/)
-* [https://gitlab.com/alis-is/](https://github.com/alis-is/)
-* [https://gitlab.com/groktech/](https://gitlab.com/groktech/)
 ### Social Media
-* [Twitter: Tez Capital](https://twitter.com/tezcapital)
-* [Twitter: MavBake](https://twitter.com/YourBakeBuddy)
-* [Twitter: MavPay](https://twitter.com/YourPayBuddy)
-* [Twitter: TezGov](https://twitter.com/YourGovBuddy)
-* [Twitter: alis-is (Berry Studio)](https://twitter.com/alisis_official)
-* [Twitter: GrokTech](https://twitter.com/GrokYourTech)
+* [Twitter: Mavryk Dynamics](https://twitter.com/MavrykDynamics)
