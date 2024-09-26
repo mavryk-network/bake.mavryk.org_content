@@ -16,13 +16,13 @@ For this tutorial, you'll need to have already have installed Docker as shown he
 ### Pull the MavBake Docker Image
 
    ```
-   sudo docker pull ghcr.io/tez-capital/mavbake:latest-alpinemavbake setup --peak
+   sudo docker pull ghcr.io/mavryk-network/mavbake:latest-alpinemavbake setup --peak
    ```
 
 ### Setup MavBake Container
 
    ```
-   sudo docker run --name mavbake-container --privileged -d ghcr.io/tez-capital/mavbake:latest-alpine
+   sudo docker run --name mavbake-container --privileged -d ghcr.io/mavryk-network/mavbake:latest-alpine
    ```
 
 > After this step, you will need to wait a while for the container to start up and bootstrap the Tezos node.

@@ -14,7 +14,7 @@ For this tutorial, you'll need to have already followed the following tutorials:
   + [Starter/Minimal configuration](https://bake.mavryk.org/mavpay/configuration/examples/starter/)
   + [All configuration options](https://bake.mavryk.org/mavpay/configuration/examples/sample/)
 * [Download MavBake](/mavbake/tutorials/how-to-bake/#download-and-copy-mavbake) _(note: Installing node/baking services not necessary for this tutorial)_
-* [Install ami-mavpay service](https://github.com/tez-capital/ami-mavpay)
+* [Install ami-mavpay service](https://github.com/mavryk-network/ami-mavpay)
 
 Following the guides above will ensure you have the necessary tools and configurations to proceed with this tutorial.
 

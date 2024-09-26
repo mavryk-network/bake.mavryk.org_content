@@ -45,7 +45,7 @@ summary:
 ### Blog
 * [Medium](https://tezcapital.medium.com/)
 ### Source Code
-* [https://github.com/tez-capital/](https://github.com/tez-capital/)
+* [https://github.com/mavryk-network/](https://github.com/mavryk-network/)
 * [https://gitlab.com/alis-is/](https://github.com/alis-is/)
 * [https://gitlab.com/groktech/](https://gitlab.com/groktech/)
 ### Social Media

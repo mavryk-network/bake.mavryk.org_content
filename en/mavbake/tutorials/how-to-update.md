@@ -42,7 +42,7 @@ We will sometimes specify which upgrade method to use by referencing its letter.
 First update your mavbake binary to the latest version, depending on your computer architecture:
 
    ```
-   wget -q https://github.com/tez-capital/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
+   wget -q https://github.com/mavryk-network/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
    # you may be prompted for sudo password
    ```
 
@@ -58,7 +58,7 @@ Then update the rest of the MavBake software stack:
 Update your mavbake binary to the latest version, depending on your computer architecture:
 
    ```
-   wget -q https://github.com/tez-capital/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
+   wget -q https://github.com/mavryk-network/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
    # you may be prompted for sudo password
    ```
 

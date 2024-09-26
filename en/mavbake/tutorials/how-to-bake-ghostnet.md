@@ -31,7 +31,7 @@ Installing MavBake CLI and using it to setup your Tezos baker is very simple. Yo
 To begin, run the script below, which will download the latest version of MavBake and copy it to your `/usr/sbin` directory. This script works with both x86_64 and arm64 architectures.
 
    ```
-   wget -q https://github.com/tez-capital/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
+   wget -q https://github.com/mavryk-network/mavbake/raw/main/install.sh -O /tmp/install.sh && sudo sh /tmp/install.sh
    # you may be prompted for sudo password
    ```
 
