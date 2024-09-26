@@ -14,7 +14,7 @@ To remedy this situation and to never risk forfitting your endorsement rights fo
 
 ### Bootstrap using a snapshot
 You can get Mavryk node snapshots in the following place run by Mavryk Dynamics 
-* https://snapshots.tzinit.org/
+* https://snapshots.mavryk.org/
 
 *Before bootstrapping your node, made sure to stop your node as shown below.*
 
@@ -25,13 +25,13 @@ Using the first bootstrap method below ensures that the snapshot is checked for 
    mavbake bootstrap-node <url> <block_hash>
    mavbake start
    # example:
-   mavbake bootstrap-node https://snapshots.eu.tzinit.org/mainnet/rolling BL8Vq12HX6MJWkB6RLgQAYRKpKZ5fyMoLpWzAoQ6mh55gkKHiQU
+   mavbake bootstrap-node https://snapshots.mavryk.network/rolling BLVo8bPM1MU2h6dnKkxHkRmXcEigQbtLd9XwNrCHbKEwERSgZDy
    ```
 
 > You can replace `eu` above with `us` or `asia` if you prefer to use a different mirror closer to you.
 
 Get the block hash and block level from the snapshot provider's website:
-https://snapshots.eu.tzinit.org/mainnet/rolling.html
+https://snapshots.mavryk.network/rolling.html
 
 > The `<block_hash>` argument is optional but encouraged. If you don't want to borther with this protection, use the second method below which will also be faster.
 
@@ -48,7 +48,7 @@ Using the second bootstrap method below is faster but it assumes you trust the s
    mavbake bootstrap-node --no-check <url>
    mavbake start
    # example:
-   mavbake bootstrap-node --no-check https://snapshots.eu.tzinit.org/mainnet/rolling
+   mavbake bootstrap-node --no-check https://snapshots.mavryk.network/rolling
    ```
 > You can replace `eu` above with `us` or `asia` if you prefer to use a different mirror closer to you.
 

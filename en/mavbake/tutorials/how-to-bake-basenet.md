@@ -1,16 +1,16 @@
 ---
-title: "How to Bake on Ghostnet"
+title: "How to Bake on Basenet"
 weight: 1
 type: docs
-summary: Using MavBake to bake on the Ghostnet Mavryk perpetual testnet
+summary: Using MavBake to bake on the Basenet Mavryk perpetual testnet
 ---
 
-## Ghostnet
+## Basenet
 
-Ghostnet is Mavryk' perpetual testnet. In the context of MavBake, Ghostnet is
+Basenet is Mavryk' perpetual testnet. In the context of MavBake, Basenet is
 intended to provide a no-consequences testing environment where you can 
 learn how to properly bake and pay using MavBake and MavPay. It's highly
-recommended for all serious bakers to have a Ghostnet setup running, to
+recommended for all serious bakers to have a Basenet setup running, to
 help test protocol migrations.
 
 ## Preparation
@@ -38,7 +38,7 @@ To begin, run the script below, which will download the latest version of MavBak
 ### Setup Mavryk node, signer and install mavbake dependencies
 
    ```
-   mavbake setup -a --node-configuration=https://raw.githubusercontent.com/tez-capital/mvrk.configs/main/ghostnet.json
+   mavbake setup -a --node-configuration=https://raw.githubusercontent.com/tez-capital/mvrk.configs/main/basenet.json
    # you may be prompted for sudo password
    ```
 
@@ -48,13 +48,13 @@ At this stage, it's necessary to bootstrap your node, meaning to download a copy
    ```
    mavbake bootstrap-node <url> <block_hash>
    # example:
-   mavbake bootstrap-node https://snapshots.eu.tzinit.org/ghostnet/rolling BL8Vq12HX6MJWkB6RLgQAYRKpKZ5fyMoLpWzAoQ6mh55gkKHiQU
+   mavbake bootstrap-node https://snapshots.mavryk.network/rolling BLVo8bPM1MU2h6dnKkxHkRmXcEigQbtLd9XwNrCHbKEwERSgZDy
    ```
 
 > You can replace `eu` above with `us` or `asia` if you prefer to use a different mirror closer to you.
 
 Get the block hash and block level from the snapshot provider's website:
-https://snapshots.eu.tzinit.org/ghostnet/rolling.html
+https://snapshots.mavryk.network/rolling
 
 > The `<block_hash>` argument is optional but encouraged. If you don't want to borther with this protection, use the second method below which will also be faster.
 
@@ -79,7 +79,7 @@ After starting the node, run the following command over and over every few minut
 
 > Level refers to the latest block number on mainnet. Navigate to https://tzkt.io or https://tzstats.com and observe the latest block. Once the level in your command matches the latest block on your blockchain explorer, your node is in full sync and you can keep following the steps below.
 
-> Both https://tzkt.io or https://tzstats.com provide Ghostnet and Testnet block explorers as well. Make sure you're looking at the right explorer.
+> Both https://tzkt.io or https://tzstats.com provide Basenet and Testnet block explorers as well. Make sure you're looking at the right explorer.
 
 ### Import Ledger key or soft key and register as baker
 Now that your node is in full sync, you can proceed with the most important part: (1) your baker parameters import into your baker node and (2) submit your baker registration on the blockchain.

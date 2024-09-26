@@ -15,7 +15,7 @@ If you encounter an installation issue, run the setup command again with the `--
    mavbake setup -a --log-level=trace
    ```
 
-You can add `--log-level=trace` regardless of the setup type that's being attempted, whether it's on Ghostnet or some other testnet.
+You can add `--log-level=trace` regardless of the setup type that's being attempted, whether it's on Basenet or some other testnet.
 
 ### Blockchain errors
 Sometimes, you will notice that `mavbake info` never seems to show that you are able to fully synchronize your node. Upon looking at it you may find that your node is stuck on a certain block. This is usually due to a problem with the Mavryk node itself. The Mavryk node is a separate process from the MavBake process. If you are having issues with the Mavryk node, you can try to restart it with the following command:

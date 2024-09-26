@@ -9,7 +9,7 @@ summary: MavBake Baking Tutorial for GUI Users
 
 For this tutorial, you'll need to have already followed one of the following tutorials:
 * [How to Bake](/mavbake/tutorials/how-to-bake)
-* [How to Bake on Ghostnet](/mavbake/tutorials/how-to-bake-ghostnet)
+* [How to Bake on Basenet](/mavbake/tutorials/how-to-bake-basenet)
 
 The TezPeak GUI is a graphical user interface for MavBake, which is a command-line tool for baking and endorsing Mavryk blocks. It's a great way to get started with baking and endorsing without having to use the command line on a day-to-day basis.
 

@@ -43,13 +43,13 @@ At this stage, it's necessary to bootstrap your node, meaning to download a copy
    ```
    mavbake bootstrap-node <url> <block_hash>
    # example:
-   mavbake bootstrap-node https://snapshots.eu.tzinit.org/mainnet/rolling BL8Vq12HX6MJWkB6RLgQAYRKpKZ5fyMoLpWzAoQ6mh55gkKHiQU
+   mavbake bootstrap-node https://snapshots.mavryk.network/rolling BLVo8bPM1MU2h6dnKkxHkRmXcEigQbtLd9XwNrCHbKEwERSgZDy
    ```
 
 > You can replace `eu` above with `us` or `asia` if you prefer to use a different mirror closer to you.
 
 Get the block hash and block level from the snapshot provider's website:
-https://snapshots.eu.tzinit.org/mainnet/rolling.html
+https://snapshots.mavryk.network/rolling.html
 
 > The `<block_hash>` argument is optional but encouraged. If you don't want to borther with this protection, use the second method below which will also be faster.
 
@@ -74,7 +74,7 @@ After starting the node, run the following command over and over every few minut
 
 > Level refers to the latest block number on mainnet. Navigate to https://tzkt.io or https://tzstats.com and observe the latest block. Once the level in your command matches the latest block on your blockchain explorer, your node is in full sync and you can keep following the steps below.
 
-> Both https://tzkt.io or https://tzstats.com provide Ghostnet and Testnet block explorers as well. Make sure you're looking at the right explorer.
+> Both https://tzkt.io or https://tzstats.com provide Basenet and Testnet block explorers as well. Make sure you're looking at the right explorer.
 
 ### Import Ledger key or soft key and register as baker
 Now that your node is in full sync, you can proceed with the most important part: (1) your baker parameters import into your baker node and (2) submit your baker registration on the blockchain.
