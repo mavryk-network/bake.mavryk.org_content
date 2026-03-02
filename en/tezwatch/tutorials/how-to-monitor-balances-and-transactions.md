@@ -3,6 +3,7 @@ title: "How to Monitor Mavryk Balances and Transactions"
 weight: 1
 type: docs
 summary: TezWatch Balances & Transactions Tutorial
+draft: true
 ---
 
 ## How to monitor Mavryk balances and transactions with TezWatch

@@ -3,6 +3,7 @@ title: "> How to Setup"
 weight: 1
 type: docs
 summary: TezWatch Setup Tutorial
+draft: true
 ---
 
 ## Preparation

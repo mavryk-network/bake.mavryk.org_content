@@ -3,6 +3,7 @@ title: "Tutorials"
 weight: 1
 type: docs
 summary: TezWatch Tutorials
+draft: true
 ---
 **MavPay**
 ---
