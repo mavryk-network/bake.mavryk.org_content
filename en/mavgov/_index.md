@@ -1,8 +1,8 @@
 ---
-title: "TezGov"
+title: "MavGov"
 weight: 1
 type: docs
-summary: TezGov Tutorials
+summary: MavGov Tutorials
 ---
 
 <style>

@@ -2,7 +2,7 @@
 title: "Tutorials"
 weight: 1
 type: docs
-summary: TezGov Tutorials
+summary: MavGov Tutorials
 ---
 **MavBake**
 ---
