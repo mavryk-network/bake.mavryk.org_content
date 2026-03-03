@@ -3,6 +3,7 @@ title: "> How to Vote"
 weight: 1
 type: docs
 summary: MavGov Proposal Voting Tutorial
+draft: true
 ---
 
 ## Mavryk proposal voting

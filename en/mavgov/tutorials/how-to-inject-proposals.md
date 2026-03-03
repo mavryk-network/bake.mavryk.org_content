@@ -3,6 +3,7 @@ title: "How to Inject Proposals"
 weight: 1
 type: docs
 summary: MavGov Portal Proposal Injection Tutorial
+draft: true
 ---
 
 ## MavGov Portal Proposal Injection Tutorial

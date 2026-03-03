@@ -3,6 +3,7 @@ title: "How to Set Deposits Limit"
 weight: 1
 type: docs
 summary: MavGov Portal Set Deposits Limit Tutorial
+draft: true
 ---
 
 ## MavGov Portal Set Deposits Limit Tutorial

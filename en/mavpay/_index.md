@@ -18,8 +18,8 @@ summary: MavPay Documentation
 	}
 
 	.grid img {
-		max-width: 100px;
-		min-width: 40px;
+		max-width: 512px;
+		max-width: 512px;
 		width: 20vw
 	}
 	.grid .link {
