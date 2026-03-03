@@ -34,7 +34,7 @@ summary: MavPay Documentation
 <div class="grid" align="center" >
   <a href="tutorials/" >
 	<div class="link" style="display: inline-block">
-		<img src="/paybuddy.png" alt="MavPay"/>
+		<img src="/mavpay.png" alt="MavPay"/>
 	</div>
   </a>
 </div>

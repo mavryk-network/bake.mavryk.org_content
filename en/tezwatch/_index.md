@@ -35,7 +35,7 @@ draft: true
 <div class="grid" align="center" >
   <a href="tutorials/" >
 	<div class="link" style="display: inline-block">
-		<img src="/watchbuddy.png" alt="WatchBuddy"/>
+		<img src="/mavwatch.png" alt="MavWatch"/>
 	</div>
   </a>
 </div>

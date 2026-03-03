@@ -34,7 +34,7 @@ summary: MavGov Tutorials
 <div class="grid" align="center" >
   <a href="tutorials/" >
 	<div class="link" style="display: inline-block">
-		<img src="/govbuddy.png" alt="GovBuddy"/>
+		<img src="/mavgov.png" alt="MavGov"/>
 	</div>
   </a>
 </div>

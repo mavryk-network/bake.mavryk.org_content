@@ -34,7 +34,7 @@ summary: MavBake Tutorials
 <div class="grid" align="center" >
   <a href="tutorials/" >
 	<div class="link" style="display: inline-block">
-		<img src="/bakebuddy.png" alt="MavBake"/>
+		<img src="/mavbake.png" alt="MavBake"/>
 	</div>
   </a>
 </div>
