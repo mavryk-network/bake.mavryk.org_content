@@ -1,5 +1,6 @@
 ---
-title: "MavBake"
+title: " "
+linkTitle: "MavBake"
 weight: 1
 type: docs
 summary: MavBake Tutorials

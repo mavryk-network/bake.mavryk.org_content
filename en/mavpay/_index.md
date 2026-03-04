@@ -1,5 +1,6 @@
 ---
-title: "MavPay"
+title: " "
+linkTitle: "MavPay"
 weight: 1
 type: docs
 summary: MavPay Documentation
