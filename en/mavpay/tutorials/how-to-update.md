@@ -11,7 +11,7 @@ For access to future releases via Linux CLI, run the following command from with
     
    ```
    cd mavpay
-   wget -q https://raw.githubusercontent.com/alis-is/mavpay/main/install.sh -O /tmp/install.sh && sh /tmp/install.sh
+   wget -q https://raw.githubusercontent.com/mavryk-network/mavpay/main/install.sh -O /tmp/install.sh && sh /tmp/install.sh
    ```
 
 ---

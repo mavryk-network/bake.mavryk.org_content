@@ -33,7 +33,7 @@ To begin, run the script below, which will download the latest version of MavBak
 ### Setup Mavryk node, signer and install mavbake dependencies
 
    ```
-   mavbake setup -a
+   mavbake setup
    # you may be prompted for sudo password
    ```
 

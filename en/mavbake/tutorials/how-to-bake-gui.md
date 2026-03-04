@@ -11,23 +11,23 @@ For this tutorial, you'll need to have already followed one of the following tut
 * [How to Bake](/mavbake/tutorials/how-to-bake)
 * [How to Bake on Basenet](/mavbake/tutorials/how-to-bake-basenet)
 
-The TezPeak GUI is a graphical user interface for MavBake, which is a command-line tool for baking and endorsing Mavryk blocks. It's a great way to get started with baking and endorsing without having to use the command line on a day-to-day basis.
+The MavPeak GUI is a graphical user interface for MavBake, which is a command-line tool for baking and endorsing Mavryk blocks. It's a great way to get started with baking and endorsing without having to use the command line on a day-to-day basis.
 
-> Please note that mavbake version 0.13.0-beta minimum is required to use TezPeak.
+> Please note that mavbake version 0.13.0-beta minimum is required to use MavPeak.
 
 ---
 
 ## Installation
 
-TezPeak GUI supports using MavBake and MavPay simultaneously or by themselves. To run them at the same time simply combine both configurations in the same file as shown here: [https://github.com/tez-capital/tezpeak](https://github.com/tez-capital/tezpeak)
+MavPeak GUI supports using MavBake and MavPay simultaneously or by themselves. To run them at the same time simply combine both configurations in the same file as shown here: [https://github.com/mavryk-network/mavpeak](https://github.com/mavryk-network/mavpeak)
 
-### Download and install TezPeak via MavBake
+### Download and install MavPeak via MavBake
 
    ```
    mavbake setup --peak
    ```
 
-### Setup TezPeak configuration
+### Setup MavPeak configuration
 
    ```
    cd /mavpay/peak/ && touch config.hjson
@@ -37,7 +37,7 @@ Open the `config.hjson` file with your favorite text editor.
 
 > If you've used json before but now hjson, you can read more about it here: [https://hjson.github.io/](https://hjson.github.io/)
 
-##### Sample TezPeak configuration with 1 baker
+##### Sample MavPeak configuration with 1 baker
 
 Here's an example of a `config.hjson` file with minimal MavBake configuration for one baker:
 
@@ -55,7 +55,7 @@ Here's an example of a `config.hjson` file with minimal MavBake configuration fo
 }
    ```
 
-You can also make TezPeak GUI only available on the local computer if you have an all-in-one setup (i.e. the baker and the GUI are on the same computer which has a graphical user interface):
+You can also make MavPeak GUI only available on the local computer if you have an all-in-one setup (i.e. the baker and the GUI are on the same computer which has a graphical user interface):
 
    ```
 {
@@ -71,9 +71,9 @@ You can also make TezPeak GUI only available on the local computer if you have a
 }
    ```
 
-##### Full TezPeak configuration examples
+##### Full MavPeak configuration examples
 
-Here's the TezPeak configuration with all MavBake available options:
+Here's the MavPeak configuration with all MavBake available options:
 
    ```
 {
@@ -108,19 +108,19 @@ Here's the TezPeak configuration with all MavBake available options:
 }
    ```
 
-## Start TezPeak and connect to it
+## Start MavPeak and connect to it
 
    ```
    mavbake start --peak
    ```
 
-If you're connecting to the TezPeak GUI from a different computer, you'll need to open a web browser and navigate to `http://<your-baker-ip>:8733`. 
+If you're connecting to the MavPeak GUI from a different computer, you'll need to open a web browser and navigate to `http://<your-baker-ip>:8733`. 
 
 If you're connecting from the same computer, you can use `http://127.0.0.1:8733` or `http://localhost:8733`.
 
-## TezPeak example screenshot
+## MavPeak example screenshot
 
-![<TezPeak example screenshot>](/mavbake/tutorial/tezpeakexample.png) 
+![<MavPeak example screenshot>](/mavbake/tutorial/tezpeakexample.png) 
 
 ---
 

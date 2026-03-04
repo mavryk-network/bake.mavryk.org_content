@@ -37,7 +37,7 @@ Log into the MavGov portal by using the most secure method available to you.
 
 * **We highly recommend using the direct Ledger login at the top. This method allows you to see the specific details of your vote on your Ledger screen.**
 * Use the Remote (signer) method if you have a signer somewhere on your LAN or local computer. This is an option for advanced users. 
-* Use the Beacon method if you are using a Beacon enabled wallet like Temple or Kukai. In this case you will not see the exact details of your vote on your Ledger screen and you will instead be asked to sign an arbitrary blob message. This method also works fine but it is inherently less secure than the direct Ledger method
+* Use the Beacon method if you are using a Beacon enabled wallet like Mavryk or Kukai. In this case you will not see the exact details of your vote on your Ledger screen and you will instead be asked to sign an arbitrary blob message. This method also works fine but it is inherently less secure than the direct Ledger method
 
 ![<MavGov login home screen>](/mavgov/tutorial/mavgovHome.png) 
 

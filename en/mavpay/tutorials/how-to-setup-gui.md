@@ -2,7 +2,7 @@
 title: "How to Setup with Peak GUI"
 weight: 1
 type: docs
-summary: How to Setup Using MavPay with the TezPeak GUI
+summary: How to Setup Using MavPay with the MavPeak GUI
 ---
 
 ## Preparation
@@ -22,11 +22,11 @@ Following the guides above will ensure you have the necessary tools and configur
 
 ## Installation
 
-TezPeak GUI supports using MavBake and MavPay simultaneously or by themselves. To run them at the same time simply combine both configurations in the same file as shown here: [https://github.com/tez-capital/tezpeak](https://github.com/tez-capital/tezpeak)
+MavPeak GUI supports using MavBake and MavPay simultaneously or by themselves. To run them at the same time simply combine both configurations in the same file as shown here: [https://github.com/mavryk-network/mavpeak](https://github.com/mavryk-network/mavpeak)
 
 > Scroll down to the bottom of the page for the full configuration example.
 
-### Download and install TezPeak via MavBake
+### Download and install MavPeak via MavBake
 
    ```
    mavbake setup --peak
@@ -34,7 +34,7 @@ TezPeak GUI supports using MavBake and MavPay simultaneously or by themselves. T
 
 > You don't need to install the MavBake node or baker services to use MavPay.
 
-### Setup TezPeak configuration
+### Setup MavPeak configuration
 
    ```
    cd /mavpay/peak/ && touch config.hjson
@@ -42,9 +42,9 @@ TezPeak GUI supports using MavBake and MavPay simultaneously or by themselves. T
 
 Open the `config.hjson` file with your favorite text editor. 
 
-##### Sample TezPeak configuration
+##### Sample MavPeak configuration
 
-Here's an example of a minimal TezPeak `config.hjson` file with just MavPay configured:
+Here's an example of a minimal MavPeak `config.hjson` file with just MavPay configured:
 
    ```
 {
@@ -58,9 +58,9 @@ Here's an example of a minimal TezPeak `config.hjson` file with just MavPay conf
 }
    ```
 
-##### Full TezPeak configuration examples
+##### Full MavPeak configuration examples
 
-Here's the TezPeak configuration with all available MavPay options:
+Here's the MavPeak configuration with all available MavPay options:
 
    ```
 {
@@ -103,19 +103,19 @@ Here's the TezPeak configuration with all available MavPay options:
 }
    ```
 
-## Start TezPeak and connect to it
+## Start MavPeak and connect to it
 
    ```
    mavbake start --peak
    ```
 
-If you're connecting to the TezPeak GUI from a different computer, you'll need to open a web browser and navigate to `http://<your-baker-ip>:8733`. 
+If you're connecting to the MavPeak GUI from a different computer, you'll need to open a web browser and navigate to `http://<your-baker-ip>:8733`. 
 
 If you're connecting from the same computer, you can use `http://127.0.0.1:8733` or `http://localhost:8733`.
 
-## TezPeak example screenshot
+## MavPeak example screenshot
 
-![<TezPeak example screenshot>](/mavbake/tutorial/tezpeakexample.png) 
+![<MavPeak example screenshot>](/mavbake/tutorial/tezpeakexample.png) 
 
 ---
 

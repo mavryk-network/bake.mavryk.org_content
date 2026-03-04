@@ -7,8 +7,8 @@ summary: MavBake Updating Tutorial
 
 ## MavBake Updating
 The MavBake software consists of four components:
-1. ami - App management engine: templating and orchestration - https://github.com/alis-is/ami
-2. eli - Lua Interpreter & Essential libraries for simple cross platform scripting - https://github.com/alis-is/eli 
+1. ami - App management engine: templating and orchestration - https://github.com/mavryk-network/ami
+2. eli - Lua Interpreter & Essential libraries for simple cross platform scripting - https://github.com/mavryk-network/eli 
 3. mavbake - Command line interface for setting and monitoring your baker, using the help of the two tools above
 4. Mavkit binaries - Mavryk node binaries published by the Mavryk core developers - https://gitlab.com/mavryk-network/mavryk-protocol/-/releases
 

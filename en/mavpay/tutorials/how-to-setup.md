@@ -52,7 +52,7 @@ wallet that contains only enough Mavryk to pay out delegates.***
 ### Preparation: Step 2 *Download Files*
 
 Download the software from Github using the link:
-<https://github.com/alis-is/mavpay/releases>. In this repository,
+<https://github.com/mavryk-network/mavpay/releases>. In this repository,
 select the correct operating system and system architecture (arm64 or
 amd64). For this example we will be using *arm64*
 
@@ -63,7 +63,7 @@ Note: If you do not know the system architecture you can find out by
 opening a Terminal and executing the command `uname -m`, and this will
 return the system architecture`arm64` or `amd64`. 
 
-The example below displays *arm64*
+The example below displays *amd64*
 
 | ![<Command to determine system architecture.>](/mavpay/tutorial/mavpayImage3.png) |
 |-|
@@ -71,10 +71,10 @@ The example below displays *arm64*
 If you would rather utilize CLI to download the application you will need
 to change directory (cd) to the MavPay directory created in step 1 in
 the terminal, **then** use command `wget -q
-https://raw.githubusercontent.com/alis-is/mavpay/main/install.sh -O
+https://raw.githubusercontent.com/mavryk-network/mavpay/main/install.sh -O
 /tmp/install.sh && sh /tmp/install.sh` 
 
-See example code below (*note: input begins after last '%' character*): 
+See example code below: 
     
 | ![<Command to dl MavPay application using CLI for Linux.>](/mavpay/tutorial/mavpayImage4.png) |
 |-|
@@ -84,7 +84,7 @@ repository**
 
 **Next**, you will download the sample configuration
 file & *payout\_wallet\_private.sample.key* file from :
-<https://github.com/alis-is/mavpay/blob/main/docs/configuration/> - *or
+<https://github.com/mavryk-network/mavpay/blob/main/docs/configuration/> - *or
 you can open file in GitHub and copy text to a text editor*.
 
 *Note, there are two choices for the configuration files*:
@@ -102,14 +102,14 @@ you can open file in GitHub and copy text to a text editor*.
 ### Preparation: Step 3 - Payout Wallet (optional)
 
 **Lastly**, you will need to download the create a new wallet and
-retrieve the private key. We will be using the Temple Wallet extension
+retrieve the private key. We will be using the Mavryk Wallet extension
 to create a new wallet and to get the private key. If you already have a
 payout wallet, or know how, skip this section.
 
-  - **First**, open **Temple Wallet** and select the icon in upper right
+  - **First**, open **Mavryk Wallet** and select the icon in upper left
     
 
-| ![<Access Temple Wallet menu.>](/mavpay/tutorial/mavpayImage6.jpg) |
+| ![<Access Mavryk Wallet menu.>](/mavpay/tutorial/mavpayImage6.jpg) |
 |-|
 
   - **Next**, select 'new account', and input a new (ie Mavpay1)
@@ -117,14 +117,14 @@ payout wallet, or know how, skip this section.
 | ![<Name and confirm the new payout wallet.>](/mavpay/tutorial/mavpayImage7.jpg) |
 |-|
 
-  - **Then**, click the icon in the upper right again
+  - **Then**, click the icon in the upper right
 
-| ![<Access Temple Wallet menu, again.>](/mavpay/tutorial/mavpayImage8.png) |
+| ![<Access Mavryk Wallet menu, again.>](/mavpay/tutorial/mavpayImage8.png) |
 |-| 
 
   - **Then**, go to **Settings**
 
-| ![<Select settings in Temple Wallet menu.>](/mavpay/tutorial/mavpayImage9.jpg) |
+| ![<Select settings in Mavryk Wallet menu.>](/mavpay/tutorial/mavpayImage9.jpg) |
 |-|
 
   - **Then**, go to **Reveal Private Key**
