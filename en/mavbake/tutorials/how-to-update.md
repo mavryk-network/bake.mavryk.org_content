@@ -63,7 +63,7 @@ Update your mavbake binary to the latest version, depending on your computer arc
    ```
 
 ## What should I do after updating?
-After all updates and changes to your Mavryk node, always ensure your baking process continues successfully by monitoring its performance on https://TzStats.com and https://TzKT.io.
+After all updates and changes to your Mavryk node, always ensure your baking process continues successfully by monitoring its performance on https://nexus.mavryk.org.
 
 Check your MavBake stack versions to ensure they are up to date:
 

@@ -45,21 +45,6 @@ Monitoring just the `baker` process shows all attempts to endorse and bake block
 
 Monitoring just the `accuser` process shows the attempts of your node to call our double baking events on the Mavryk network. Normally you should not see anything in this log.
 
-### Monitor MavBake baker logs for the next protocol
-During times when Mavryk protocol are being switched out you will notice that there is a `baker` process as well as a `baker-next` process. The same is true about the `accuser` process. The `baker-next` process is the baker process that will be used when the next protocol is activated. The `baker` process will be used until the next protocol is activated. The `accuser-next` process is the accuser process that will be used when the next protocol is activated. The `accuser` process will be used until the next protocol is activated.
-
-![<MavBake -next protocol services>](/mavbake/tutorial/mavbakeNext.png)
-
-   ```
-   mavbake node log baker-next -f
-   mavbake node log accuser-next -f
-   ```
-
-The `baker-next` process will show one of two things.
-
-1. Protocol is waiting to start. This means everyone is waiting for the new proposal to be activated on mainnet. Nothing needs to be done until the new protocol is activated
-2. The baker process is running like normally. This means the new proposal has already activated and the MavBake needs to be updated to reflect it. There is no penalty for not updating unless you do not update in time for the next proposal. In other words, updating is only necessary when a proposal switch is about to happen. We still recommend that all Mavryk bakers update their MavBake to the latest production version as soon as possible to get the latest Mavkit improvements.
-
 ### Monitor full MavBake signer logs in real time
 Using the command below shows everything your Ledger is signing or trying to sign. If there is a hardware wallet issue, this log will confirm it.
 

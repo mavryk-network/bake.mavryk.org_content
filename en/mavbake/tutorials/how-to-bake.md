@@ -53,9 +53,8 @@ https://snapshots.mavryk.network/rolling.html
 
 > The `<block_hash>` argument is optional but encouraged. If you don't want to borther with this protection, use the second method below which will also be faster.
 
-Verify the hash/checksum provided by the snapshot provider to ensure the snapshot is valid. You can find the correct hashes for all blocks on Mavryk blockchain explorers such as:
-https://tzkt.io/blocks
-https://tzstats.com/
+Verify the hash/checksum provided by the snapshot provider to ensure the snapshot is valid. You can find the correct hashes for all blocks on Mavryk blockchain explorer:
+https://nexus.mavryk.org/explorer
 
 Simply search for the block level in the search field and verify the hash of the block matches the hash provided by the snapshot provider.
 
@@ -72,9 +71,9 @@ After starting the node, run the following command over and over every few minut
    mavbake info
    ```
 
-> Level refers to the latest block number on mainnet. Navigate to https://tzkt.io or https://tzstats.com and observe the latest block. Once the level in your command matches the latest block on your blockchain explorer, your node is in full sync and you can keep following the steps below.
+> Level refers to the latest block number on mainnet. Navigate to https://nexus.mavryk.org and observe the latest block. Once the level in your command matches the latest block on your blockchain explorer, your node is in full sync and you can keep following the steps below.
 
-> Both https://tzkt.io or https://tzstats.com provide Basenet and Testnet block explorers as well. Make sure you're looking at the right explorer.
+> https://nexus.mavryk.org provides Basenet and Testnet block explorers as well. Make sure you're looking at the right explorer.
 
 ### Import Ledger key or soft key and register as baker
 Now that your node is in full sync, you can proceed with the most important part: (1) your baker parameters import into your baker node and (2) submit your baker registration on the blockchain.

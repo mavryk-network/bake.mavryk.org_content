@@ -3,6 +3,7 @@ title: "How to Setup Notifications"
 weight: 1
 type: docs
 summary: How to setup notifications using MavPay
+draft: true
 ---
     
 ### Summary

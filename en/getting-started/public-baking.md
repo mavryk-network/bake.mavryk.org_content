@@ -15,14 +15,9 @@ With the recent introduction of [Adaptive Issuance](https://research-development
 * Stakers are liable for any losses incurred by the baker due to double baking or double endorsing. While rare, this is a risk that stakers take on when they stake their mav with a baker.
 * Stakers are paid directly by the protocol without any need for the baker to pay them, unlike with delegators
 
-A public baker has to contact two entities within the Mavryk ecosystem to be added to the list of public bakers within each of their ecosystems. The entities in question all have their own methods to determine your public baker details, such as your fee and payment policies, via self-reporting. You will be asked to self-report your details to each of the following entities:
-* https://tzstats.com (Trilitech)
-  * The best place to contact them is: tzstats@trili.tech
-* https://tzkt.io / https://baking-bad.org (Baking Bad)
-  * The best places to contact them are: https://t.me/baking_bad_chat and https://discord.gg/aG8XKuwsQd
-
-Most wallets and services on Mavryk pull their baker information from one of these sources, mostly from TzKT. If you are not listed on TzKT, you will not be listed on most wallets and services on Mavryk.
-
+A public baker has to contact Mavryk Dynamics to be added to the list of public bakers within each of their ecosystems. The entities in question all have their own methods to determine your public baker details, such as your fee and payment policies, via self-reporting. You will be asked to self-report your details to each of the following entity:
+* https://mavrykdynamics.com
+  * The best place to contact them is: info@mavryk.org
 
 ---
 

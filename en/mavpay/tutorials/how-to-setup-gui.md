@@ -95,7 +95,7 @@ Here's the MavPeak configuration with all available MavPay options:
             is_block_provider: false
         }
     }
-	# The mode tezpeak should operate in
+	# The mode mavpeak should operate in
 	# auto - if bound to localhost, it will operate in private mode if not, it will operate in public mode
 	# public - assumes public environment, only readonly operations are allowed
 	# private - assumes private environment, all operations are allowed
@@ -115,7 +115,7 @@ If you're connecting from the same computer, you can use `http://127.0.0.1:8733`
 
 ## MavPeak example screenshot
 
-![<MavPeak example screenshot>](/mavbake/tutorial/tezpeakexample.png) 
+![<MavPeak example screenshot>](/mavbake/tutorial/mavpeakexample.png) 
 
 ---
 
